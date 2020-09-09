@@ -14,5 +14,6 @@ deaths_per_100000 INT
 CREATE TABLE poverty_data (
 fips_code TEXT PRIMARY KEY,
 state_code TEXT,
-county_name TEXT
+county_name TEXT,
+poverty INT 
 );
