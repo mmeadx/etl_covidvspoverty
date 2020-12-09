@@ -1,12 +1,28 @@
-# etl_covidvspoverty
-ETL - COVID-19 Dataset and Poverty
-By: Emilio Bello and Matt Mead
+# ETL Example
+_COVID-19 Dataset and Poverty_
 
-Datasets:
-COVID-19 DATA: https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker
-POVERTY DATA: https://www.census.gov/data/datasets/time-series/demo/saipe/model-tables.html
 
-Steps for creating database:
+**Team**
+
+[_Matt Mead_](https://www.linkedin.com/in/mattmeadmpls/)
+
+[_Emilio Bello_](https://www.linkedin.com/in/emilio-bello-09938760/)
+
+**Datasets**
+
+_COVID-19 DATA_: [Data World](https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker)
+
+_POVERTY DATA_: [Census.gov](https://www.census.gov/data/datasets/time-series/demo/saipe/model-tables.html)
+
+**Tools Used**
+
+_Postgres SQL_
+
+_Python_
+
+_jupyter notebook_
+
+# Creating database on your local machine:
 
 1. Clone the etl_covidvspoverty to your computer.
 2. Open Postgres SQL and create database named 'covid_poverty_db'.
